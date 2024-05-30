@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <table border="2">
+        <tr>
+            <td><label>Angka 1</label></td>
+            <td><input type="text" id="angka1" placeholder="Masukkan angka1"></td>
+        </tr>
+        <tr>
+            <td><label>Angka 2</label></td>
+            <td><input type="text" id="angka2" placeholder="Masukkan angka2"></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td>
+        <button onclick="tambah()">Tambah</button>
+        <button onclick="kurang()">Kurang</button>
+        <button onclick="bagi()">Bagi</button>
+        <button onclick="kali()">Kali</button>
+    </td>
+</tr>
+<tr>
+    <td><label>Hasil</label></td>
+    <td><input type="text" id="hasil"></td>
+</tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
